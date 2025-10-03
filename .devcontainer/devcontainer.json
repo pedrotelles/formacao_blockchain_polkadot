@@ -1,0 +1,22 @@
+{
+  "name": "Dev Container Polkadot",
+  "containerUser": "vscode",
+  "image": "mcr.microsoft.com/devcontainers/rust:2.0-bullseye",
+  "containerEnv": {},
+  "postStartCommand": "sh /workspaces/curso_polkadot/utils/install_polkadot_deps.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "formulahendry.code-runner",
+        "dracula-theme.theme-dracula",
+        "esbenp.prettier-vscode",
+        "rust-lang.rust-analyzer",
+        "streetsidesoftware.code-spell-checker",
+        "fill-labs.dependi",
+        "usernamehw.errorlens",
+        "tamasfe.even-better-toml",
+        "codelldb.codelldb"
+      ]
+    }
+  }
+}
