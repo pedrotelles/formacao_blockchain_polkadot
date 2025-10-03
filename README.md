@@ -7,6 +7,7 @@ Este projeto utiliza um ambiente de desenvolvimento baseado em **Dev Container**
 ## Sumário
 
 - [Como rodar o ambiente com Dev Container](#como-rodar-o-ambiente-com-dev-container)
+- [Como rodar o ambiente no GitHub Codespaces](#como-rodar-o-ambiente-no-github-codespaces)
 - [Dependências já presentes no projeto](#dependências-já-presentes-no-projeto)
 - [Referências](#referências)
 
@@ -34,6 +35,16 @@ Este projeto utiliza um ambiente de desenvolvimento baseado em **Dev Container**
 4. **Utilizando o terminal**  
    Após abrir o projeto no Dev Container, utilize o terminal integrado do VS Code para executar comandos como `git`, `cargo`, entre outros.
 
+## Como rodar o ambiente no GitHub Codespaces
+
+1. Certifique-se de que o repositório está hospedado no GitHub.
+2. No repositório, clique no botão verde “<> Code” e selecione a aba “Codespaces”.
+3. Clique em “Create codespace on main” (ou no branch desejado).
+4. Aguarde o ambiente ser provisionado automaticamente.
+5. O Codespaces utilizará a configuração do Dev Container já presente no projeto.
+
+Você poderá programar diretamente do navegador ou abrir o Codespace no VS Code.
+
 ## Dependências já presentes no projeto
 
 O ambiente do Dev Container já inclui as seguintes dependências e ferramentas instaladas e disponíveis no `PATH`:
@@ -49,6 +60,7 @@ Essas dependências garantem um ambiente pronto para desenvolvimento com Rust e 
 ## Referências
 
 - [Documentação Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers)
+- [GitHub Codespaces](https://docs.github.com/en/codespaces)
 - [Rust](https://www.rust-lang.org/)
 - [Polkadot](https://polkadot.network/) Curso Polkadot
 
