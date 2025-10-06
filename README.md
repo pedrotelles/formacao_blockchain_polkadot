@@ -57,11 +57,14 @@ O ambiente do Dev Container já inclui as seguintes dependências e ferramentas 
 
 Essas dependências garantem um ambiente pronto para desenvolvimento com Rust e Polkadot, sem necessidade de configurações adicionais.
 
+
+## Como executar os projetos
+
+Consulte o arquivo [`COMO_EXECUTAR.md`](./COMO_EXECUTAR.md) para instruções detalhadas de execução de cada projeto deste repositório.
+
 ## Referências
 
 - [Documentação Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers)
 - [GitHub Codespaces](https://docs.github.com/en/codespaces)
 - [Rust](https://www.rust-lang.org/)
-- [Polkadot](https://polkadot.network/) Curso Polkadot
-
-Este projeto utiliza um ambiente de desenvolvimento baseado em **Dev Container** para facilitar a configuração e o uso das ferramentas necessárias.
+- [Polkadot](https://polkadot.network/)
